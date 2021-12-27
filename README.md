@@ -1,5 +1,10 @@
 # f5.log4j_ioc
-iRule that helps to mitigate the Log4j vulnerability with use of public available IOCs. Currently it only uses the IOC from the NLD Police which is available here: https://thanksforallthefish.nl/log4j_blocklist.txt
+iRule that helps to mitigate the Log4j vulnerability with use of public available IOCs. Currently the following IOCs can be used:
+
+| Note | Links |
+|------|-------|
+| cert-agid.gov.it (Contains scan IP's) | https://cert-agid.gov.it/download/log4shell-iocs.txt |
+| NLD Police | https://thanksforallthefish.nl/log4j_blocklist.txt (line-by-line) Not Verified |
 
 The plan is to add some more IOCs soon.
 
